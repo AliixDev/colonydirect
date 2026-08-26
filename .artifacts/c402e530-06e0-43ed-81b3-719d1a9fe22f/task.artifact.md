@@ -1,0 +1,4 @@
+- [ ] Update root `build.gradle.kts` with plugin versions and clean up redundant config
+- [ ] Run Gradle sync to verify fix
+- [ ] Run build tasks for both subprojects
+- [ ] Create walkthrough artifact

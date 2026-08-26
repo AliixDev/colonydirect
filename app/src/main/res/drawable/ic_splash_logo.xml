@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Simple vector splash logo — a leaf inside a circle representing
+    "fresh, direct from colony". Replace with your production artwork.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-42,0a42,42 0,1 1,84 0a42,42 0,1 1,-84 0" />
+
+    <!-- Leaf shape -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M54,22 C54,22 34,38 34,54 C34,64.5 42.5,73 54,73 C65.5,73 74,64.5 74,54 C74,38 54,22 54,22 Z" />
+
+    <!-- Leaf vein -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M54,22 L54,73"
+        android:fillColor="#00000000" />
+
+    <!-- Small tagline circle -->
+    <path
+        android:fillColor="#FF6F00"
+        android:pathData="M54,80m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+</vector>

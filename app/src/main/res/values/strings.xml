@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ColonyDirect</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to your ColonyDirect account</string>
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Join ColonyDirect for fresh produce delivery</string>
+    <string name="email_hint">Email address</string>
+    <string name="password_hint">Password</string>
+    <string name="full_name_hint">Full name</string>
+    <string name="phone_hint">Phone number (optional)</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="already_have_account">Already have an account? Sign In</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="proceed_to_checkout">Proceed to Checkout</string>
+    <string name="place_order">Place Order</string>
+    <string name="order_placed">Order Placed!</string>
+    <string name="continue_shopping">Continue Shopping</string>
+    <string name="view_order_details">View Order Details</string>
+</resources>

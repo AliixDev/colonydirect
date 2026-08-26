@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base app theme (window background only; Compose handles all other theming) -->
+    <style name="Theme.ColonyDirect" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Splash screen theme applied to MainActivity before Compose takes over -->
+    <style name="Theme.ColonyDirect.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#1B5E20</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.ColonyDirect</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+## Copy this file to "local.properties" in the project root (same folder as settings.gradle.kts)
+## and set sdk.dir to YOUR OWN Android SDK path. Never commit local.properties -- it's
+## machine-specific and is already covered by the default Android .gitignore entry.
+
+# macOS example:
+# sdk.dir=/Users/<you>/Library/Android/sdk
+
+# Linux example:
+# sdk.dir=/home/<you>/Android/Sdk
+
+# Windows example (note forward slashes, even on Windows):
+# sdk.dir=C\:\\Users\\<you>\\AppData\\Local\\Android\\Sdk

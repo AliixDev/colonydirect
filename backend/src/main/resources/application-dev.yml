@@ -1,0 +1,5 @@
+app:
+  jwt:
+    secret: dev-only-secret-do-not-use-in-production-min-32-bytes-long
+  google:
+    client-id: dev-google-client-id
